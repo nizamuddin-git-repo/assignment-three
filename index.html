@@ -47,71 +47,89 @@
         <nav>
             <div class="navbar bg-base-100 mt-16">
                 <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Pages</li>
+                            <li>Blog</li>
+                            <li>Contact</li>
                     </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li>Home</li>
+                    <a class="btn btn-ghost text-3xl font-extrabold">Hockey <span class="text-[#FF4240]">’ </span>s</a>
+
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal text-base font-normal px-1 gap-10">
+                        <span class="text-[#FF4240]">
+                            <li>Home</li>
+                        </span>
                         <li>About</li>
                         <li>Pages</li>
                         <li>Blog</li>
-                        <li>Contact</li> 
-                  </div>
-                  <a class="btn btn-ghost text-3xl font-extrabold">Hockey <span class="text-[#FF4240]">’ </span>s</a>
-                  
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal text-base font-normal px-1 gap-10">
-                    <span class="text-[#FF4240]"><li>Home</li></span>
-                    <li>About</li>
-                    <li>Pages</li>
-                    <li>Blog</li>
-                    <li>Contact</li>                  
+                        <li>Contact</li>
                 </div>
                 <div class="navbar-end">
                     <img class="mr-5" src="Images/frame.png" alt="">
-                  <a class="btn bg-get-primary text-white">Get Ticket</a>
+                    <a class="btn bg-get-primary text-white">Get Ticket</a>
                 </div>
-              </div>
+            </div>
         </nav>
         <!-- navbar section end here -->
     </header>
     <main>
-         <!-- banner section starts here  -->
-        <section class="container mx-auto">
+        <!-- banner section starts here  -->
+        <section class="container mx-auto mt-10">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
-                  <img src="/Images/01.png.png" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle">❮</a> 
-                    <a href="#slide2" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide2" class="carousel-item relative w-full">
-                  <img src="Images/02.png.png" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle">❮</a> 
-                    <a href="#slide3" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide3" class="carousel-item relative w-full">
-                  <img src="Images/03.png.png" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2" class="btn btn-circle">❮</a> 
-                    <a href="#slide4" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide4" class="carousel-item relative w-full">
-                  <img src="Images/04.png.png" class="w-full" />
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle">❮</a> 
-                    <a href="#slide1" class="btn btn-circle">❯</a>
-                  </div>
+                    <img src="/Images/01.png.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
                 </div>
-              </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/02.png.png" class="w-full rounded-2xl" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="Images/03.png.png" class="w-full rounded-2xl" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="Images/04.png.png" class="w-full rounded-2xl" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
         </section>
-         <!-- banner section end here  -->
+        <!-- banner section end here  -->
+
+        <div class="w-full mx-auto flex justify-center mt-24 ">
+            <div class="text-center">
+                <h1 class="text-4xl font-extrabold text-[#131318]">Professional Hockeys Club</h1>
+                <p class=" text-base font-medium mt-6 text-gray-500">
+                    Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus
+                    urna in sit
+                    nullam proin.
+                </p>
+            </div>
+        </div>
     </main>
     <footer>
 
