@@ -24,12 +24,13 @@
             theme: {
                 extend: {
                     colors: {
-                        clifford: '',
+                        clifford: '#da373d',
                         'get-primary': '#FF4240',
                     }
                 }
             }
         }
+    </script>
     </script>
 
     <!-- custom style -->
@@ -42,7 +43,7 @@
 </head>
 
 <body class="font-manrope">
-    <header class="container mx-auto">
+    <header class="container mx-auto sm: grid-cols-1">
         <!-- navbar section starts here -->
         <nav>
             <div class="navbar bg-base-100 mt-16">
@@ -77,7 +78,7 @@
                         <li>Contact</li>
                 </div>
                 <div class="navbar-end">
-                    <img class="mr-5" src="Images/frame.png" alt="">
+                    <img class="mr-4" src="Images/frame.png" alt="">
                     <a class="btn bg-get-primary text-white">Get Ticket</a>
                 </div>
             </div>
@@ -134,24 +135,87 @@
             <div class="container mx-auto mt-20">
                 <div class="lg:flex gap-5 mx-3 sm:grid-cols-1">
                     <div class="text-center">
-                        <div class="radial-progress text-green-500 mx-5" style="--value:90;" role="progressbar">90%</div>
+                        <div class="radial-progress text-green-500 mx-5" style="--value:90;" role="progressbar">90%
+                        </div>
                         <h1 class="text-xl font-semibold text-[#131318] mt-4">Prayer Facility</h1>
-                        <p class="text-base text-slate-500 font-normal mt-4">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        <p class="text-base text-slate-500 font-normal mt-4">Amet consectetur. Condimentum dignissim
+                            adipiscing .</p>
                     </div>
                     <div class="text-center">
-                        <div class="radial-progress text-yellow-500 mx-5" style="--value:80;" role="progressbar">80%</div>
-                        <h1 class="text-xl font-semibold text-[#131318] mt-4">Prayer Facility</h1>
-                        <p class="text-base text-slate-500 font-normal mt-4">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        <div class="radial-progress text-yellow-500 mx-5" style="--value:80;" role="progressbar">80%
+                        </div>
+                        <h1 class="text-xl font-semibold text-[#131318] mt-4">Experienced Coach</h1>
+                        <p class="text-base text-slate-500 font-normal mt-4">Amet consectetur. Condimentum dignissim
+                            adipiscing .</p>
                     </div>
                     <div class="text-center">
                         <div class="radial-progress text-sky-500 mx-5" style="--value:60;" role="progressbar">60%</div>
-                        <h1 class="text-xl font-semibold text-[#131318] mt-4">Prayer Facility</h1>
-                        <p class="text-base text-slate-500 font-normal mt-4">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        <h1 class="text-xl font-semibold text-[#131318] mt-4">Senior Player</h1>
+                        <p class="text-base text-slate-500 font-normal mt-4">Amet consectetur. Condimentum dignissim
+                            adipiscing .</p>
                     </div>
                     <div class="text-center">
                         <div class="radial-progress text-red-600 mx-5" style="--value:50;" role="progressbar">50%</div>
-                        <h1 class="text-xl font-semibold text-[#131318] mt-4">Prayer Facility</h1>
-                        <p class="text-base text-slate-500 font-normal mt-4">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                        <h1 class="text-xl font-semibold text-[#131318] mt-4">Training Ground</h1>
+                        <p class="text-base text-slate-500 font-normal mt-4">Amet consectetur. Condimentum dignissim
+                            adipiscing .</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-auto flex justify-center mt-24">
+                <div class="text-center">
+                    <h1 class=" text-4xl font-extrabold text-[#131318]">Program Sections</h1>
+                    <p class="mt-4 text-base font-medium text-gray-500">Dit amet consectetur. Condimentum dignissim
+                        adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto mt-20">
+            <div class="flex gap-5">
+                <!-- card-1 -->
+                <div class="card w-2/4 bg-base-100 shadow-xl image-full">
+                    <figure><img class="w-full" src="Images/2.png" alt="Shoes" /></figure>
+                    <div class="card-body mt-14 ml-3">
+                        <h2 class="card-title text-4xl font-extrabold text-white">Junior Program</h2>
+
+                        <p class="font-medium text-base text-white">Dolor sit amet consectetur. Ut urna diam quis
+                            sagittis. Elit elit <br>
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+
+                        <div class="mb-3">
+                            <button class="btn bg-get-primary border-none text-white px-10">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-2 -->
+                <div class="card w-2/4 bg-base-100 shadow-xl image-full">
+                    <figure><img class="w-full" src="Images/3.png" alt="Shoes" /></figure>
+                    <div class="card-body mt-14 ml-3">
+                        <h2 class="card-title text-4xl font-extrabold text-white">Teenager Program</h2>
+
+                        <p class="font-medium text-base text-white">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br> 
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
+
+                        <div class="mb-3">
+                            <button class="btn bg-get-primary border-none text-white px-10">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card-3 -->
+            <div class="flex mt-5">
+                <div class="card w-full bg-base-100 shadow-xl image-full">
+                    <figure><img class="w-full" src="Images/4.png" alt="Shoes" /></figure>
+                    <div class="card-body mt-14 ml-3">
+                        <h2 class="card-title text-4xl font-extrabold text-white">Professional Program</h2>
+
+                        <p class="font-medium text-base text-white tex">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br> 
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc <br> morbi nulla. Tortor congue sed et in.</p>
+
+                        <div class="mb-3">
+                            <button class="btn bg-get-primary border-none text-white px-10">Register Now!</button>
+                        </div>
                     </div>
                 </div>
             </div>
